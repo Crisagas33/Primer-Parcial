@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial</title>
+
+    <link rel="stylesheet" href="../src/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="../assests/img/olimpicos.png" alt="Logo" class="nav-brand">
+            <ul class="nav-menu show">
+                <li>
+                    <a href="#">Atletas Olimpicos:</a>
+                </li>
+                <li>
+                    <a href="#">Kevin Cordón</a>
+                </li>
+                <li>
+                    <a href="#">Scarleth Ucelo</a>
+                </li>
+                <li>
+                    <a href="#">Charles Fernandez</a>
+                </li>
+                <li>
+                    <a href="#">Luis Martínez</a>
+                </li>
+            </ul>
+            
+        </nav>
+        
+        <hr>
+        
+        
+        <header class="showcase">
+            <h2 style="color:black">Juegos Olimpicos</h2>
+            <b style="color: black">Los Juegos Olímpicos o olimpiadas o lo que es lo mismo de manera abreviada, JJ. OO., son eventos deportivos multidisciplinarios en los que participan atletas de diversas partes del mundo, en la antigua Grecia eran dedicados al dios Zeus.</b>
+            <b style="color: black">Existen dos tipos de Juegos Olímpicos: los Juegos Olímpicos de Verano y los Juegos Olímpicos de Invierno, que se realizan con un intervalo de cuatro años.</b>
+            <b style="color: black">La organización encargada de la realización de los mismos es el Comité Olímpico Internacional (por su abreviatura, COI).</b>
+        </header>
+
+
+        <div>
+            <section class="cards-banner-one">
+                <div class="content">
+                    <h2>Atletas Olímpicos</h2>
+                    <p>Felicidades a los representates guatemaltecos por poner en alto el nombre de su país y haber llegado tan lejos en los juegos olímpicos Tokyo 2020.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Primeros 2 -->
+        <div class="news-cards">
+                <div>
+                    <img src="../assests/img/Kevin.jpg" alt="news">
+                    <h3>Kevin Cordón</h3>
+                    <p>Kevin Haroldo Cordón Buezo es un destacado deportista guatemalteco de la especialidad de bádminton quien obtuvo la 4° posición en la categoría individual masculina de bádminton en los Juegos Olímpicos de Tokio 2020.</p>
+                </div>
+                <div>
+                    <img src="../assests/img/Scarleth.jpg" alt="news">
+                    <h3>Scarleth Ucelo</h3>
+                    <p>Scarleth Ucelo es una levantadora de pesas guatemalteca. Representó a Guatemala en los Juegos Olímpicos de Verano de 2020 en Tokio, Japón. Terminó en el puesto 13 en el evento femenino de +87 kg.</p>
+                </div>
+        </div>
+
+        <!-- Ultimos 2 -->
+        <div class="news-cards">
+            <div>
+                <img src="../assests/img/Charles.jpg" alt="news">
+                <h3>Charles Fernandez</h3>
+                <p>Charles Fernandez es un pentatleta moderno guatemalteco. Compitió en los Juegos Olímpicos de Verano de 2016 en el evento masculino y terminó decimoquinto. Fernández ganó el pentatlón moderno masculino en los Juegos Panamericanos de 2015. También ganó una medalla de oro en el Campeonato Mundial Juvenil. Fernández ha competido en tres Campeonatos Mundiales de Pentatlón Moderno, así como en múltiples campeonatos mundiales juveniles y juveniles y en Juegos Centroamericanos y del Caribe.</p>
+            </div>
+            <div>
+                <img src="../assests/img/Luis.jpg" alt="news">
+                <h3>Luis Martínez</h3>
+                <p>Luis Carlos Martínez clasificó a la final de los 100 metros mariposa en los Juegos Olímpicos, un hito para la historia del deporte en nuestro país.</p>
+            </div>
+        </div>
+        </section>
+    </div>
+    
+    <section class="formulario">
+        <h4>Manda un Saludo a tu Atleta Favorito</h4>
+        <input class="contenedor" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="contenedor" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="contenedor" type="text" name="atleta" id="atleta" placeholder="Ingrese a quién envia un saludo">
+        <textarea class="contenedor" name="saludo" id="saludo" cols="30" rows="10" placeholder="Ingrese su Saludo"></textarea>
+        <input class="botons" type="submit" value="Enviar">
+      </section>
+  
+    
+    <footer class="footer">
+        <section class="social">
+            <p>SIGUENOS</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </section>
+        <h3>Olimpic Games</h3>
+    </footer>
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../src/index.js"></script>
+</body>
+</html>
